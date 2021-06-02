@@ -27,3 +27,75 @@ Here is how to run the code:
     -> python manage.py runserver
     
     
+    
+    
+ Extra:
+ 
+ Input as mentioned in PDF:
+ 
+ [{"Gender": "Male", "HeightCm": 171, "WeightKg": 96 }, { "Gender": "Male", "HeightCm": 161, "WeightKg":
+85 }, { "Gender": "Male", "HeightCm": 180, "WeightKg": 77 }, { "Gender": "Female", "HeightCm": 166,
+"WeightKg": 62}, {"Gender": "Female", "HeightCm": 150, "WeightKg": 70}, {"Gender": "Female",
+"HeightCm": 167, "WeightKg": 82}]
+
+Output as asked :
+
+[
+    {
+        "Gender": "Male",
+        "HeightCm": 171,
+        "WeightKg": 96,
+        "bmi": 32.83061454806607,
+        "bmiCategory": "Moderately obese",
+        "bmiHealthRisk": "Medium risk"
+    },
+    {
+        "Gender": "Male",
+        "HeightCm": 161,
+        "WeightKg": 85,
+        "bmi": 32.79194475521777,
+        "bmiCategory": "Moderately obese",
+        "bmiHealthRisk": "Medium risk"
+    },
+    {
+        "Gender": "Male",
+        "HeightCm": 180,
+        "WeightKg": 77,
+        "bmi": 23.76543209876543,
+        "bmiCategory": "Normal weight",
+        "bmiHealthRisk": "Low risk"
+    },
+    {
+        "Gender": "Female",
+        "HeightCm": 166,
+        "WeightKg": 62,
+        "bmi": 22.49963710262738,
+        "bmiCategory": "Normal weight",
+        "bmiHealthRisk": "Low risk"
+    },
+    {
+        "Gender": "Female",
+        "HeightCm": 150,
+        "WeightKg": 70,
+        "bmi": 31.11111111111111,
+        "bmiCategory": "Moderately obese",
+        "bmiHealthRisk": "Medium risk"
+    },
+    {
+        "Gender": "Female",
+        "HeightCm": 167,
+        "WeightKg": 82,
+        "bmi": 29.402273297715947,
+        "bmiCategory": "Overweight",
+        "bmiHealthRisk": "Enhanced risk"
+    },
+    {
+        "overweight_count": 1
+    }
+]
+
+
+
+ 
+    
+    
