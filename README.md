@@ -30,6 +30,9 @@ Here is how to run the code:
     
     
  Extra:
+
+Logic is in bmiapp/views.py
+<br>
  
  Input as mentioned in PDF:
  
