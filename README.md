@@ -1,4 +1,4 @@
-# code-2ndJune-SunnySourav
+# BMI Application
 
 Here is how to run the code:
 <br>
